@@ -26,14 +26,16 @@
 		</nav>
 		<p>
 			<center><h1><b><i>LOG_IN</i></b></h1></center>
-			<section>	                    
+			<section>
+				<div class="log">	                    
 		        <form method="POST" action="DB-connection/collect.php">
-		             <center><input type="Email" name="Email" id="Email" placeholder="Email" size="70" maxlength="10" /></br></br></center>
-		             <center><input type="password" name="password" id="password" placeholder="password" size="70" maxlength="10" /></br></br>
+		             <center><input type="Email" name="Email" id="Email" placeholder="Email" size="40" maxlength="10" /></br></br></center>
+		             <center><input type="password" name="password" id="password" placeholder="password" size="40" maxlength="10" /></br></br>
 		            </center>
 		                        
   					<center><input type="submit" value="send" /></center>
   				</form>
+  			</div>
   			</section>
 		</p>
 </body>
